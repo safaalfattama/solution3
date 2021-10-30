@@ -1,0 +1,103 @@
+
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: blanchedalmond;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin: 0;
+
+}
+ #collapsable-nav ul{
+  background-color: white;
+}
+/*
+.navbar-brand p span { 
+  vertical-align: middle;
+}
+*/
+#nav-list {
+  margin-top: 5px;
+}
+
+#nav-list li {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+hr{
+  line-height: 1.5em;
+  color: black;
+  border-top: 2px solid black;
+}
+#home-tiles{
+  background-color: lightgray;
+  color: black;
+  font-weight: bold;
+}
+.menu-tiles{
+  font-size: 1.3em;
+}
+
+@media (max-width: 767px) {
+  #collapsable-nav{
+    background-color: white;
+  }
+
+  #home-tiles{
+    margin-right: 70px;
+    margin-left: 70px;
+
+
+  }
+}
+
+
+@media (min-width: 1200px) {
+  #home-tiles{
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+#home-tiles{
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+#home-tiles{
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+
